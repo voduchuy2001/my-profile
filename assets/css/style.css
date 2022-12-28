@@ -403,6 +403,10 @@ body{
 }
 
 /* Education & experience*/
+.education__content{
+    font-size: var(--normal-font-size);
+}
+
 .experience__title{
     font-size: var(--h3-font-size);
 }
