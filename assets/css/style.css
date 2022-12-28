@@ -523,6 +523,7 @@ body{
 @media screen and (min-width: 968px){
     body{
         margin: 3rem 0;
+        font-size: var(--normal-font-size);
     }
 
     .bd-container{
