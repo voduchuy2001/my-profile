@@ -42,6 +42,51 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, ul, p{
+    margin: 0;
+}
+
+h1, h2, h3{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: var(--body-font);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
+
+.mb-3{
+    margin-bottom: 1rem;
+}
+
+.mb-4{
+    margin-bottom: .5rem;
+}
+
+.text-indent{
+    text-indent: .75rem;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -196,30 +241,6 @@ body{
     color: var(--text-color);
 }
 
-h1, h2, h3, ul, p{
-    margin: 0;
-}
-
-h1, h2, h3{
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-}
-
-ul{
-    padding: 0;
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    font-size: var(--body-font);
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
-
 /* Class CSS */
 .section{
     padding: 1.5rem 0;
@@ -368,7 +389,7 @@ img{
 .home__information{
     display: flex;
     align-items: center;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .home__icon{
@@ -382,6 +403,10 @@ img{
 }
 
 /* Education & experience*/
+.experience__title{
+    font-size: var(--h3-font-size);
+}
+
 .education__content,
 .experience__content{
     display: flex;
@@ -407,8 +432,8 @@ img{
 }
 
 .education__studies,
-.experience__company{
-    font-size: var(--small-font-size);
+.experience__subtitle{
+    font-size: var(--normal-font-size);
     color: var(--title-color);
 }
 
@@ -416,7 +441,19 @@ img{
     font-size: var(--smaller-font-size);
 }
 
+.experience__description{
+    font-size: var(--normal-font-size);
+}
+
+/*Career goals*/
+.career__content{
+    font-size: var(--normal-font-size);
+}
 /* Skill */
+.skill__title{
+    font-size: var(--h3-font-size);
+}
+
 .skills__conten{
     grid-template-columns: repeat(2, 1fr);
 }
