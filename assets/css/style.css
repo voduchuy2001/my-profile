@@ -69,6 +69,7 @@ img{
 li{
     list-style: none;
     margin-bottom: .5rem;
+    font-size: var(--normal-font-size);
 }
 
 h3{
@@ -403,10 +404,6 @@ body{
 }
 
 /* Education & experience*/
-.education__content{
-    font-size: var(--normal-font-size);
-}
-
 .experience__title{
     font-size: var(--h3-font-size);
 }
@@ -443,10 +440,6 @@ body{
 
 .education__year{
     font-size: var(--smaller-font-size);
-}
-
-.experience__description{
-    font-size: var(--normal-font-size);
 }
 
 /*Career goals*/
