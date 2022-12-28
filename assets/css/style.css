@@ -442,16 +442,12 @@ body{
     font-size: var(--smaller-font-size);
 }
 
-/*Career goals*/
-.career__content{
-    font-size: var(--normal-font-size);
-}
 /* Skill */
 .skill__title{
     font-size: var(--h3-font-size);
 }
 
-.skills__conten{
+.skills__content{
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -470,30 +466,6 @@ body{
     margin-right: .75rem;
 }
 
-/* Certificates */
-.certificate__title{
-    font-size: var(--h3-font-size);
-    margin-top: var(--mb-1);
-}
-
-/* References */
-.references__content{
-    margin-top: 1rem;
-    gap: .25rem;
-}
-
-.references__subtitle{
-    color: var(--tetx-color-light);
-}
-
-.references__subtitle,
-.references__contact{
-    font-size: var(--small-font-size);
-}
-
-.references__title{
-    font-size: var(--h3-font-size);
-}
 
 /* Scroll top  */
 .scrolltop{
