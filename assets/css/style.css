@@ -18,9 +18,9 @@
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.15rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
+  --normal-font-size: 0.815rem;
+  --small-font-size: 0.775rem;
+  --smaller-font-size: 0.713rem;
 
   /* Font weight  */
   --font-medium: 500;
@@ -29,8 +29,8 @@
   /* Margin  */
   --mb-0: 0.2rem;
   --mb-1: 0.5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
+  --mb-2: 0.65rem;
+  --mb-3: 0.75rem;
 
   /* Index  */
   --z-tooltrip: 10;
@@ -252,7 +252,7 @@ body {
 
 /* Class CSS */
 .section {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .section-title {
@@ -260,7 +260,7 @@ body {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
-  letter-spacing: 0.35rem;
+  letter-spacing: 0.25rem;
   text-align: center;
   margin-bottom: var(--mb-3);
 }
