@@ -50,6 +50,7 @@ h3,
 ul,
 p {
   margin: 0;
+  font-size: var(--normal-font-size);
 }
 
 h1,
@@ -130,21 +131,21 @@ body.dark-theme {
 
 /* Font size and variable to scale CV  */
 body.scale-cv {
-  --h1-font-size: 0.938rem;
-  --h2-font-size: 0.9rem;
-  --h3-font-size: 0.75rem;
-  --normal-font-size: 0.8rem;
-  --small-font-size: 0.75rem;
-  --smaller-font-size: 0.688rem;
+  --h1-font-size: 0.8rem;
+  --h2-font-size: 0.75rem;
+  --h3-font-size: 0.7rem;
+  --normal-font-size: 0.65rem;
+  --small-font-size: 0.6rem;
+  --smaller-font-size: 0.55rem;
 }
 
 /* Generate PDF button  */
 .generate-pdf {
   display: block;
   position: absolute;
-  top: 2.2rem;
+  top: 2rem;
   left: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--text-color);
   cursor: pointer;
 }
@@ -165,11 +166,11 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-  padding: 1.2rem 0 0.9rem;
+  padding: 0.9rem 0 0.7rem;
 }
 
 .scale-cv .section-title {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
 .scale-cv .resume__left,
