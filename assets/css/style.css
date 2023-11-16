@@ -143,9 +143,9 @@ body.scale-cv {
 .generate-pdf {
   display: block;
   position: absolute;
-  top: 2rem;
+  top: 2.2rem;
   left: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   cursor: pointer;
 }
