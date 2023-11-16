@@ -244,7 +244,7 @@ body.scale-cv {
 
 body {
   margin: 0 0 var(--header-height) 0;
-  padding: 0;
+  padding: none;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -304,7 +304,7 @@ body {
     bottom: -100%;
     left: 0;
     width: 100%;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     background-color: var(--body-color);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 1rem 1rem 0 0;
